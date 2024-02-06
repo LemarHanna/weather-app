@@ -36,8 +36,8 @@ body{
     height: 60px;
     border-radius: 30px;
     flex: 1;
-    margin-right: 16px;
-    font-size: 18px;
+    margin-right: 15px;
+    font-size: 15px;
 }
 
 .search button{
@@ -45,11 +45,26 @@ body{
     outline: 0;
     background: #ebfffc;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     cursor: pointer;
 }
+.weather-icon {
+    width: 170px;
+    margin-top: 30px;
 
+}
+
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
 
 
 
