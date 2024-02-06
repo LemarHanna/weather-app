@@ -6,16 +6,34 @@
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+<body> 
 <div class="card">
     <div class="search">
         <input type="text" placeholder="enter city name" spellcheck="false">
         <button> <img src="images/search.jpg"></button>
     </div>
-    
-    <div class="weather"></div>
-</div>
+    <div class="weather">
+        <img src="images/rain.png" class="weather-icon" alt="Weather Icon">
+        <h1 class="temp">22°c</h1>
+        <h2 class="city">Stockholm</h2>
+        <div class="details">
+            <div class="col">
+                <img src="images/humidity.png" alt="Humidity Icon">
+                <div>
+                    <p class="humidity">50%</p> 
+                    <p>humidity</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="images/wind.png" alt="Humidity Icon">
+                <div>
+                    <p class="wind">15 km/h</p> 
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
 
